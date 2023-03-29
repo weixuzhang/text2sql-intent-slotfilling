@@ -1,0 +1,258 @@
+{
+    "intent_1":{
+        "text":"查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+        "template":"SELECT ds, count(1) as pv, count(distinct uin_) as uv FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListExposure') group by ds",
+        "slots":{
+            "datetime": "20220801这天"
+        },
+        "features":{
+            "pv":"pv",
+            "uv":"uv"
+        }
+    },
+    "intent_2":{
+        "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+        "template":"SELECT ds, count(1) as pv, count(distinct uin_) as uv FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick') group by ds;",
+        "slots": {
+            "datetime": "20220801一天"
+        },
+        "features":{
+            "pv":"pv",
+            "uv":"uv"
+        }
+
+    },
+    "intent_3":{
+        "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+        "template":"SELECT ds, count(1) as pv, count(distinct uin_) as uv FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('ObtainAwardSucc') group by ds;",
+        "slots": {
+            "datetime": "20220801一天"
+        },
+        "features":{
+            "pv":"pv",
+            "uv":"uv"
+        } 
+    },
+    "intent_4":{
+        "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+        "template":"SELECT ds, avg(size(split(event_target_, \";\"))) as expose_items_avg FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListExposure') group by ds;",
+        "slots": {
+            "datetime": "20220801一天"
+        },
+        "features":{
+            "次均曝光优惠券数量":"expose_items_avg"
+        } 
+    },
+    "intent_5":{
+        "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+        "template":"SELECT ds, avg(click_item_num) as click_item_num_avg, avg(obtain_item_num) as obtain_item_num_avg FROM (SELECT floor(ds/100) as ds, uin_, count(distinct if(event_code_ IN ('AwardListClick'), event_target_, null)) as click_item_num, count(distinct if(event_code_ IN ('ObtainAwardSucc'), event_target_, null)) as obtain_item_num FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick', 'ObtainAwardSucc') group by floor(ds/100), uin_) group by ds;",
+        "slots": {
+            "datetime": "8月1号"
+        },    
+        "features":{
+            "人均点击优惠券数量":"click_item_num_avg",
+            "人均兑换优惠券数量":"obtain_item_num_avg"
+        }
+    },
+    "intent_6":{
+        "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+        "template":"SELECT ds, uin_, award_id, ROW_NUMBER() OVER (PARTITION BY uin_, ds, event_target_new ORDER BY event_target_) AS exp_idx FROM (SELECT DISTINCT ds, uin_, event_target_, event_target_ AS event_target_new FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListExposure') ) LATERAL VIEW explode(split(event_target_, \";\")) temp AS award_id;",
+        "slots": {
+            "datetime": "8月1日0-2时"
+        },   
+        "features":{
+            "位置索引值":"row_number"
+        } 
+    },
+    "intent_7":{
+        "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+        "template":"SELECT exp_idx, avg(if(clk.award_id is not null,1,0)) as click_ratio, avg(if(obtain.award_id is not null,1,0)) as obtain_ratio FROM (SELECT ds, uin_, award_id, event_target_new, ROW_NUMBER() OVER (PARTITION BY uin_, ds, event_target_new ORDER BY event_target_) AS exp_idx FROM (SELECT DISTINCT ds, uin_, event_target_, event_target_ AS event_target_new FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListExposure') ) LATERAL VIEW explode(split(event_target_, \";\")) temp AS award_id) a left join (SELECT DISTINCT ds, uin_, event_target_ as award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick') ) clk on a.uin_=clk.uin_ and a.award_id = clk.award_id and a.ds = clk.ds left join (SELECT DISTINCT ds, uin_, event_target_ as award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('ObtainAwardSucc') ) obtain on a.uin_=obtain.uin_ and a.award_id = obtain.award_id and a.ds = obtain.ds group by exp_idx;",
+        "slots": {
+            "datetime": "8月1日0-2时"
+        },
+        "features":{
+            "点击率":"click_ratio",
+            "兑换率":"obtain_ratio"
+        } 
+    },
+    "intent_8":{
+        "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+        "template":"SELECT uin_ as uin, count(1) as uin_expo_num, count(distinct floor(ds/100)) as uin_expo_day_num, min(ds) as uin_expo_min_ds, max(ds) as uin_expo_max_ds FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListExposure') group by uin_;",
+        "slots": {
+            "datetime": "过去一个月"
+        },
+        "features":{
+            "曝光次数":"uin_expo_num",
+            "曝光天数":"uin_expo_day_num",
+            "最近一次曝光时间":"uin_expo_min_ds",
+            "最早一次曝光时间":"uin_expo_max_ds"
+        } 
+    },
+    "intent_9":{
+        "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+        "template":"SELECT uin_ as uin, count(1) as uin_obtain_num, count(distinct event_target_) as uin_obtain_item_num, count(distinct floor(ds/100)) as uin_obtain_day_num, min(ds) as uin_obtain_min_ds, max(ds) as uin_obtain_max_ds FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('ObtainAwardSucc') group by uin_;",
+        "slots": {
+            "datetime": "过去一个月"
+        },
+        "features":{
+            "兑换次数":"uin_obtain_num",
+            "兑换优惠券数":"uin_obtain_item_num",
+            "兑换天数":"uin_obtain_day_num",
+            "最近一次兑换时间":"uin_obtain_min_ds",
+            "最早一次兑换时间":"uin_obtain_max_ds"
+        }
+    },
+    "intent_10":{
+        "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+        "template":"SELECT uin_ as uin, count(1) as uin_clk_num, count(distinct event_target_) as uin_clk_item_num, count(distinct floor(ds/100)) as uin_clk_day_num, min(ds) as uin_clk_min_ds, max(ds) as uin_clk_max_ds FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick') group by uin_;",
+        "slots": {
+            "datetime": "过去一个月"
+        },
+        "features":{
+            "点击次数":"uin_clk_num",
+            "点击item数":"uin_clk_item_num",
+            "点击天数":"uin_clk_day_num",
+            "最近一次点击时间":"uin_clk_min_ds",
+            "最早一次点击时间":"uin_clk_max_ds"
+        }
+    },
+    "intent_11":{
+        "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+        "template":"SELECT algid, item_id, avg(score) as avg_score from (select ds, algid, uin, split(item_result, \":\")[0] as item_id, split(item_result, \":\")[1] as score FROM (select ds, scorealgid_ as algid, uin_ as uin, item_result from (select * from wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_model_score_hour where ds >= slot_datetime_b and ds <= slot_datetime_e)day_tbl LATERAL VIEW explode(split(scoreresult_, \"\\|\")) temp AS item_result)t)tbl group by algid, item_id;",
+        "slots": {
+            "datetime": "8月3号"
+        },
+        "features":{
+            "打分均值":"avg_score"
+        } 
+    },
+    "intent_12":{
+        "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+        "template":"SELECT hour_tbl.algid, hour_tbl.item_id, abs(yesterday_score - hour_score) as score_diff FROM (select algid, item_id, avg(score) as yesterday_score from (select ds, algid, uin, split(item_result, \":\")[0] as item_id, split(item_result, \":\")[1] as score from (select ds, scorealgid_ as algid, uin_ as uin, item_result from (select * from wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_model_score_hour where ds >= slot_datetime_b and ds <= slot_datetime_e)day_tbl LATERAL VIEW explode(split(scoreresult_, \"\\|\")) temp AS item_result)t)tbl group by algid, item_id)yesterday_tbl join (select algid, item_id, avg(score) as hour_score from (select ds, algid, uin, split(item_result, \":\")[0] as item_id, split(item_result, \":\")[1] as score from (select ds, scorealgid_ as algid, uin_ as uin, item_result from ( select * from wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_model_score_hour where ds >=  slot_datetime2_b and ds <= slot_datetime2_e) p LATERAL VIEW explode(split(scoreresult_, \"\\|\")) temp AS item_result)t)tbl group by algid, item_id)hour_tbl on yesterday_tbl.algid = hour_tbl.algid and yesterday_tbl.item_id = hour_tbl.item_id;",
+        "slots": {
+            "datetime": "8月3号与8月4号14时"
+        },
+        "features":{
+            "打分差值":"score_diff"
+        }
+    },
+    "intent_13":{
+        "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+        "template":"SELECT ds, algid, item_id, uin, score, row_number() OVER (partition by ds,algid,uin ORDER BY score desc) score_rank_idx FROM (select ds, algid, uin, split(item_result, \":\")[0] as item_id, cast(split(item_result, \":\")[1] as double) as score from (select ds, scorealgid_ as algid, uin_ as uin, item_result from (select * from wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_model_score_hour where ds >= slot_datetime_b and ds <= slot_datetime_e)day_tbl LATERAL VIEW explode(split(scoreresult_, \"\\|\")) temp AS item_result)t)tbl;",
+        "slots": {
+            "datetime": "8月3号这天"
+        },
+        "features":{
+            "排序值":"row_number"
+        }
+    },
+    "intent_14":{
+        "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+        "template":"SELECT algid, score_rank_idx, count(1) as pred_num, avg(if(expo.award_ids like concat('%',item_id,'%'),1,0)) as expo_ratio, avg(if(clk.award_id is null,0,1)) as click_ratio, avg(if(obtain.award_id is null,0,1)) as obtain_ratio FROM (select ds, algid, item_id, uin, score, row_number() OVER (partition by ds,algid,uin ORDER BY score desc) score_rank_idx from (select ds, algid, uin, split(item_result, \":\")[0] as item_id, cast(split(item_result, \":\")[1] as double) as score from (select distinct ds, scorealgid_ as algid, uin_ as uin, item_result from (select * from wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_model_score_hour where ds >= slot_datetime_b and ds <= slot_datetime_e)day_tbl LATERAL VIEW explode(split(scoreresult_, \"\\|\")) temp AS item_result)t)tbl) a left join (SELECT DISTINCT ds, uin_, event_target_ AS award_ids FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListExposure') ) expo on a.uin = expo.uin_ and a.ds = expo.ds left join (SELECT DISTINCT ds, uin_, event_target_ AS award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick') ) clk on a.uin = clk.uin_ and a.ds = clk.ds left join (SELECT DISTINCT ds, uin_, event_target_ AS award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick') ) obtain on a.uin = obtain.uin_ and a.ds = obtain.ds group by score_rank_idx, algid;",
+        "slots": {
+            "datetime": "8月3号"
+        },
+        "features":{
+            "曝光率":"expo_ratio",
+            "点击率":"click_ratio",
+            "兑换率":"obtain_ratio"
+        } 
+    },
+    "intent_15":{
+        "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+        "template":"SELECT expo.award_id as item_id, avg(if(clk.award_id is not null,1,0)) as click_ratio, avg(if(obtain.award_id is not null,1,0)) as obtain_ratio FROM (SELECT ds, uin_, award_id FROM (SELECT DISTINCT ds, uin_, event_target_, event_target_ AS event_target_new FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds = slot_datetime_b AND event_code_ IN ('AwardListExposure') ) LATERAL VIEW explode(split(event_target_, \";\")) temp AS award_id) expo left join (SELECT DISTINCT ds, uin_, event_target_ as award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds = slot_datetime_b AND event_code_ IN ('AwardListClick') ) clk on expo.uin_=clk.uin_ and expo.award_id = clk.award_id left join (SELECT DISTINCT ds, uin_, event_target_ as award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds = slot_datetime_b AND event_code_ IN ('ObtainAwardSucc') ) obtain on expo.uin_=obtain.uin_ and expo.award_id = obtain.award_id group by expo.award_id;",
+        "slots": {
+            "datetime": "8月1号第一个小时"
+        },
+        "features":{
+            "点击率":"click_ratio",
+            "兑换率":"obtain_ratio"
+        }
+    },
+    "intent_16":{
+        "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+        "template":"SELECT alg_group, avg(expo_num_per_user) as avg_expo_num, count(distinct expo_tbl.uin) as tot_gift_expo_uv, count(distinct clk_tbl.uin) as tot_gift_click_uv, count(distinct obtain_tbl.uin) as tot_gift_obtain_uv, count(distinct clk_tbl.uin)/ count(distinct expo_tbl.uin) as uv_clk_rate, count(distinct obtain_tbl.uin) / count(distinct expo_tbl.uin) as uv_obt_rate from (SELECT uin_ as uin, avg(size(split(event_target_, \";\"))) as expo_num_per_user FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e and event_code_ IN ('AwardListExposure') group by uin_) expo_tbl join (select distinct exptgroupids_ as alg_group, uin_ as uin from wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_model_score_hour where ds between slot_datetime_b and slot_datetime_e and exptgroupids_ in (slot_group) ) score_tbl on expo_tbl.uin = score_tbl.uin left join (SELECT distinct uin_ as uin FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick') ) clk_tbl on expo_tbl.uin = clk_tbl.uin left join (SELECT distinct uin_ as uin FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('ObtainAwardSucc') ) obtain_tbl on expo_tbl.uin = obtain_tbl.uin group by alg_group;",
+        "slots": {
+            "group": "实验组234111对比234110实验组",
+            "datetime": "8月1号"
+        },
+        "features":{
+            "人均曝光权益数量":"avg_expo_num",
+            "曝光uv":"tot_gift_expo_uv",
+            "点击uv":"tot_gift_click_uv",
+            "兑换uv":"tot_gift_obtain_uv",
+            "uv点击率":"uv_clk_rate",
+            "uv曝光兑换率":"uv_obt_rate"
+        }
+    },
+    "intent_17":{
+        "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+        "template":"SELECT alg_group, count(1) as tot_gift_expo_pv, sum(if(clk_tbl.uin is null, 0, 1)) as tot_gift_click_pv, sum(if(obtain_tbl.uin is null, 0, 1)) as tot_gift_obtain_pv, sum(if(clk_tbl.uin is null, 0, 1))/count(1) as pv_clk_rate, sum(if(obtain_tbl.uin is null, 0, 1))/count(1) as pv_obt_rate from (SELECT uin_ as uin FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e and event_code_ IN ('AwardListExposure')) expo_tbl join (select distinct exptgroupids_ as alg_group, uin_ as uin from wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_model_score_hour where ds between slot_datetime_b and slot_datetime_e and exptgroupids_ in (slot_group) ) score_tbl on expo_tbl.uin = score_tbl.uin left join (SELECT uin_ as uin FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('AwardListClick') ) clk_tbl on expo_tbl.uin = clk_tbl.uin left join (SELECT uin_ as uin FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds BETWEEN slot_datetime_b AND slot_datetime_e AND event_code_ IN ('ObtainAwardSucc') ) obtain_tbl on expo_tbl.uin = obtain_tbl.uin group by alg_group;",
+        "slots": {
+            "group": "实验组234111对比234110实验组",
+            "datetime": "8月1号"
+        },
+        "features":{
+            "曝光pv":"tot_gift_expo_pv",
+            "点击pv":"tot_gift_click_pv",
+            "兑换pv":"tot_gift_obtain_pv",
+            "pv点击率":"pv_clk_rate",
+            "pv曝光兑换率":"pv_obt_rate"
+        } 
+    },
+    "intent_18":{
+        "text": "查看8月1号点击率top10的优惠券",
+        "template":"SELECT item_id, click_ratio, click_ratio_rank from ( select item_id, click_ratio, row_number() OVER ( ORDER BY click_ratio desc) as click_ratio_rank from ( select expo.award_id as item_id, avg(if(clk.award_id is not null,1,0)) as click_ratio from (SELECT ds, uin_, award_id FROM (SELECT DISTINCT ds, uin_, event_target_ FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds between slot_datetime_b and slot_datetime_e AND event_code_ IN ('AwardListExposure') ) LATERAL VIEW explode(split(event_target_, \";\")) temp AS award_id) expo left join (SELECT DISTINCT ds, uin_, event_target_ as award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds between slot_datetime_b and slot_datetime_e AND event_code_ IN ('AwardListClick') ) clk on expo.uin_=clk.uin_ and expo.award_id = clk.award_id and expo.ds = clk.ds group by expo.award_id)) where click_ratio_rank<=slot_range;",
+        "slots": {
+            "datetime": "8月1号",
+            "range": "top10"
+        },
+        "features":{
+            "点击率":"click_ratio"
+        }
+    },
+    "intent_19":{
+        "text": "查看8月1号兑换率top10的优惠券",
+        "template":"SELECT item_id, obtain_ratio, obtain_ratio_rank from ( select item_id, obtain_ratio, row_number() OVER ( ORDER BY obtain_ratio desc) as obtain_ratio_rank from ( select expo.award_id as item_id, avg(if(obtain.award_id is not null,1,0)) as obtain_ratio from (SELECT ds, uin_, award_id FROM (SELECT DISTINCT ds, uin_, event_target_ FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds between slot_datetime_b and slot_datetime_e AND event_code_ IN ('AwardListExposure') ) LATERAL VIEW explode (split(event_target_, \";\")) temp AS award_id) expo left join (SELECT DISTINCT ds, uin_, event_target_ as award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds between slot_datetime_b and slot_datetime_e AND event_code_ IN ('ObtainAwardSucc') ) obtain on expo.uin_=obtain.uin_ and expo.award_id = obtain.award_id and expo.ds = obtain.ds group by expo.award_id)) where obtain_ratio_rank<=slot_range;",
+        "slots": {
+            "datetime": "8月1号",
+            "range": "top10"
+        },
+        "features":{
+            "兑换率":"obtain_ratio"
+        }
+    },
+    "intent_20":{
+        "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+        "template":"SELECT  item_id, obtain_ratio, award_name, brand_name, value from ( select item_id, obtain_ratio from ( select item_id, obtain_ratio, row_number() OVER ( ORDER BY obtain_ratio desc) as obtain_ratio_rank from ( select expo.award_id as item_id, avg(if(obtain.award_id is not null,1,0)) as obtain_ratio from (SELECT ds, uin_, award_id FROM (SELECT DISTINCT ds, uin_, event_target_ FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds between slot_datetime_b and slot_datetime_e AND event_code_ IN ('AwardListExposure') ) LATERAL VIEW explode(split(event_target_, \";\")) temp AS award_id) expo left join (SELECT DISTINCT ds, uin_, event_target_ as award_id FROM wxg_wechat_pay_intership2::t_dwd_tmp_wxpay_discount_event_log_hour WHERE ds between slot_datetime_b and slot_datetime_e AND event_code_ IN ('ObtainAwardSucc') ) obtain on expo.uin_=obtain.uin_ and expo.award_id = obtain.award_id and expo.ds = obtain.ds group by expo.award_id) ) where obtain_ratio_rank<=slot_range ) a left join (select * from wxg_wechat_pay_intership2::t_dim_tmp_wxpay_discount_coupon_info_day where ds between  20220801 and 20220801 ) b on a.item_id=b.event_target;",
+        "slots": {
+            "datetime": "8月1号",
+            "range": "top3"
+        },
+        "features":{
+            "优惠券名称":"award_name",
+            "品牌":"brand_name",
+            "价值":"value"
+        }
+    },
+    "intent_21":{
+        "text": "查看8月1号不同类型的优惠券数量",
+        "template":"SELECT coupon_type, count(distinct event_target) as coupon_num from wxg_wechat_pay_intership2::t_dim_tmp_wxpay_discount_coupon_info_day where ds between 20220801 and 20220801  group by coupon_type;",
+        "slots": {
+            "datetime": "8月1号"
+        },
+        "features":{
+            "优惠券数量":"coupon_num"
+        } 
+    },
+    "intent_22":{
+        "text": "查看8月1号不同品牌的优惠券数量",
+        "template":"SELECT brand_id, brand_name, count(distinct event_target) as coupon_num from wxg_wechat_pay_intership2::t_dim_tmp_wxpay_discount_coupon_info_day where ds between 20220801 and 20220801  group by brand_id, brand_name;",
+        "slots": {
+            "datetime": "8月1号"
+        },
+        "features":{
+            "优惠券数量":"coupon_num"
+        } 
+    }
+}

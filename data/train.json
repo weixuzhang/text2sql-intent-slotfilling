@@ -1,0 +1,9052 @@
+[
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券曝光页面在20220801这天的每小时pv，uv",
+    "slots": {
+      "datetime": "20220801这天"
+    },
+    "intent": "intent_1",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月3号模型打分排序值对应的曝光率、曝光点击率、曝光兑换率",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_14",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月点击次数、点击item数、最近一次点击时间，最早一次点击时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_10",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "同用户同算法组下8月3号这天item的模型打分排序值",
+    "slots": {
+      "datetime": "8月3号这天"
+    },
+    "intent": "intent_13",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券点击页面在20220801一天每小时pv，uv的统计",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_2",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益item的8月3号与8月4号14时的模型打分差值",
+    "slots": {
+      "datetime": "8月3号与8月4号14时"
+    },
+    "intent": "intent_12",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在20220801一天每小时次均曝光优惠券数量",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_4",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同品牌的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_22",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号点击率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_18",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠权益每个优惠券的8月3号的模型打分均值",
+    "slots": {
+      "datetime": "8月3号"
+    },
+    "intent": "intent_11",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠优惠券兑换页面在20220801一天每小时pv，uv",
+    "slots": {
+      "datetime": "20220801一天"
+    },
+    "intent": "intent_3",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "支付有优惠8月1日0-2时曝光权益列表展开得到每个item及其对应位置索引值",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_6",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top10的优惠券",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top10"
+    },
+    "intent": "intent_19",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠在8月1日0-2时各个展示位平均点击率、兑换率",
+    "slots": {
+      "datetime": "8月1日0-2时"
+    },
+    "intent": "intent_7",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的人均曝光权益数量，曝光uv、点击uv、兑换uv、uv点击率、uv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_16",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月曝光次数，曝光天数，最近一次曝光时间，最早一次曝光时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_8",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号兑换率top3的优惠券的券名称，品牌，价值",
+    "slots": {
+      "datetime": "8月1号",
+      "range": "top3"
+    },
+    "intent": "intent_20",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看支付有优惠日在8月1号人均点击优惠券数量、人均兑换优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_5",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "查看8月1号不同类型的优惠券数量",
+    "slots": {
+      "datetime": "8月1号"
+    },
+    "intent": "intent_21",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "实验组234111对比234110实验组的在8月1号的曝光pv、点击pv、兑换pv、pv点击率、pv曝光兑换率",
+    "slots": {
+      "group": "实验组234111对比234110实验组",
+      "datetime": "8月1号"
+    },
+    "intent": "intent_17",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "8月1号第一个小时曝光的优惠券对应的点击率、兑换率",
+    "slots": {
+      "datetime": "8月1号第一个小时"
+    },
+    "intent": "intent_15",
+    "domain": "wechatpay"
+  },
+  {
+    "text": "用户过去一个月兑换次数、兑换优惠券数、最近一次兑换时间，最早一次兑换时间",
+    "slots": {
+      "datetime": "过去一个月"
+    },
+    "intent": "intent_9",
+    "domain": "wechatpay"
+  }
+]
